@@ -1,0 +1,129 @@
+body{
+    background-color: #3c98c7e4;
+
+}
+
+
+#gg ul{
+    list-style-type: none;
+    background-color: hsl(0, 0%, 20%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#gg input{
+    box-shadow: 2px 2px black;
+    border-radius: 7px;
+    height: 30px;
+    width: 300px;
+}
+#gg button{
+    background-color: yellow;
+    width: 80px;
+    height: 40px;
+    box-shadow: 2px 2px black;
+    border-radius: 10px;
+}
+#gg a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    text-align: center;
+}
+#gg a:hover{
+    background-color: hsl(0, 0%, 0%)
+}
+#gg li{
+    float: left;
+}
+#Details {
+    margin-left: 550px;
+    margin-block: 50px;
+    display: inline-block;
+    border-radius: 20px;
+    box-shadow: 4px 4px black;
+    background-color: darkslategray;
+    padding: 20px;
+}
+
+
+#todayforecast table{
+    
+    border-spacing: 10px;
+}
+#Weather table{
+    
+    border-spacing: 10px;
+}
+#gg{
+    position: fixed;
+    width: 100%;
+    box-shadow: 6px 6px black;
+    border-radius: 15px;
+    margin-bottom: 100px;}
+.dropdown .content a{
+    display: block;
+    color: rgb(204, 204, 204);
+    padding: 10px 15px;
+}
+.dropdown .content{
+    display: none;
+    position: absolute;
+    background-color: rgba(245, 245, 245, 0.91);
+    box-shadow: 2px 2px 5px hsl(0, 0%, 0%);
+}
+.dropdown:hover .content{
+    display: block;
+}
+#map{
+    width: 100%;
+}
+#Weather h4{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;}
+#Details p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:azure;
+    
+}
+#Details h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(220, 229, 238);
+    
+}
+#Details h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: snow;
+}
+#Details h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    text-shadow: 0.5px 0.5px black;
+}
+#todayforecast{
+    display: inline-block;
+    background-color: rgb(0, 28, 100);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    margin-left: 550px;
+    color: azure;
+    border-radius: 40px;
+    box-shadow: 5px 5px black;
+
+}
+
+
+#Weather{
+    display: inline-block;
+    background-color: rgb(17, 84, 84);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    margin-left: 550px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: azure;
+    border-radius: 40px;
+    box-shadow: 5px 5px black;
+}

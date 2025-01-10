@@ -1,0 +1,125 @@
+<!DOCTYPE HTML>
+<HTML>
+<head>
+  <title>WeatherApp</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   <div id="j"></div>
+  <div id="gg">
+    
+      <ul>
+        <li><a href="#j">Home</a></li>
+        <div class="dropdown">
+            <li><a href="#">City</a></li>
+            <div class="content">
+              <ul>
+                <li><a href="#" onclick="setCity('Kharagpur')">Kharagpur</a></li>
+                <li><a href="#" onclick="setCity('Kolkata')">Kolkata</a></li>
+                <li><a href="#" onclick="setCity('Pune')">Pune</a></li>
+              </ul>
+            </div>
+          </div>
+        <li><a href="#Details">Details</a></li>
+        <li><a href="#todayforecast">Today's Forecast</a></li>
+
+        <li><a href="#map">Map</a></li>
+        <li><input type="text" placeholder="Enter City Name" id="cityInput" style="margin-top: 10px; margin-left: 50px;"></li>
+        <li><button onclick="getWeather()" style="margin-top: 10px; margin-left: 20px;">Search</button></li>
+        <li style="float:right; margin-right: 20px;"><a href="#aboutus">About us</a></li>
+      </ul>
+    
+  </div>
+
+  <br>
+  <br>
+
+  <div id="Details">
+    <p id="location">City, Region as of Time</p>
+    <h1 id="temperature">--°C</h1>
+    <h2 id="condition">Condition</h2>
+    <h3 id="feelslike">Feels like --°C</h3>
+  </div>
+
+  <br>
+
+  
+  <br>
+
+
+  <div id="todayforecast">
+    <h2>Today's Forecast</h2>
+    <table>
+      <tr>
+        <td>Morning</td>
+        <td id="morningTemp">--</td>
+        <td>Morning</td>
+        <td id="morningPrecip">--%</td>
+      </tr>
+      <tr>
+        <td>Afternoon</td>
+        <td id="afternoonTemp">--</td>
+        <td>Afternoon</td>
+        <td id="afternoonPrecip">--%</td>
+      </tr>
+      <tr>
+        <td>Evening</td>
+        <td id="eveningTemp">--</td>
+        <td>Evening</td>
+        <td id="eveningPrecip">--%</td>
+      </tr>
+      <tr>
+        <td>Overnight</td>
+        <td id="overnightTemp">--</td>
+        <td>Overnight</td>
+        <td id="overnightPrecip">--%</td>
+      </tr>
+    </table>
+  </div>
+
+  <br>
+
+
+  <div id="Weather">
+
+    <table>
+      <tr>
+        <td>
+          <table id="left">
+            <tr><td>High/Low</td><td id="highLow">-- / --</td></tr>
+            <tr><td>Humidity</td><td id="humidity">--%</td></tr>
+            <tr><td>Pressure</td><td id="pressure">-- mb</td></tr>
+            <tr><td>Visibility</td><td id="visibility">-- km</td></tr>
+          </table>
+        </td>
+        <td>
+          <table id="right">
+            <tr><td>Wind</td><td id="wind">-- kph</td></tr>
+            <tr><td>Dew Point</td><td id="dewPoint">--</td></tr>
+            <tr><td>UV Index</td><td id="uvIndex">-- of 11</td></tr>
+            <tr><td>Moon Phase</td><td id="moonPhase">--</td></tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+
+
+  <br>
+  <div id="map">
+    
+  </div>
+  
+
+  <div id="aboutus" style="width: 100%;">
+    <hr>
+    <p>WeatherApp © 2025</p>
+    <a id="scroll" style="float: right;" href="#j">Top</a>
+    <a href="https://weather.com/en-TT/legal">Terms of Use | </a><a href="https://weather.com/en-TT/intl-privacy">Privacy Policy | </a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</HTML>
